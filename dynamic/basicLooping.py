@@ -2,32 +2,40 @@
 
 import numpy as np
 
-def touchHalf(x, y):
-    res = np.zeros([x, y])
-
+def touchHalf(matrix, x, y):
     s = 0
-    while s < x:
+    while s <= x:
         t = 0
-        while t < y - s - 1:
-            res[s][t] += 1
+        while t < y - s:
+            u = t + s
+            matrix[t][u] += 1
             t += 1
         s += 1
+    s = 0
 
-    return res
+    return matrix
 
 
-def scalarMatrix(x, k):
+def scalarMatrix(matrix, x, k):
     # builds identity matrix if k = 1, otherwise scalar matrix of k
 
-    res = np.zeros([x, x])
     for i in range(x):
-        res[i][i] = k
+        matrix[i][i] = k
 
-    return res
+    return matrix
 
+def createMatrix(x, y):
+    return np.zeros([x, y])
 
-print(touchHalf(3, 3))
-# touchHalf(1, 1)
-# touchHalf(5, 5)
-# touchHalf(8, 8)
-# touchHalf(10, 10)
+m = createMatrix(3, 3)
+s = scalarMatrix(m, 3, 2)
+print(touchHalf(s, 3, 3))
+m = createMatrix(1, 1)
+print(touchHalf(m, 1, 1))
+m = createMatrix(5, 5)
+print(touchHalf(m, 5, 5))
+m = createMatrix(8, 8)
+print(touchHalf(m, 8, 8))
+m = createMatrix(10, 10)
+s = scalarMatrix(m, 10, 2)
+print(touchHalf(s, 10, 10))
