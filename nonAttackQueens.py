@@ -1,3 +1,5 @@
+# Contributed by: Bryan Ling
+# Original code from Online Sources
 class Solution:
 
     BLANK_CHESS_BOARD = [[".",".","Q",".",".",".",".","."],

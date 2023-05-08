@@ -1,3 +1,5 @@
+# Contributed by: Bryan Ling
+
 # GCF of area problem (euclid's algo, recursion)
 
 def findGreatestCommonFactor(val1: int, val2: int) -> int:

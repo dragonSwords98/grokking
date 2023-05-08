@@ -1,4 +1,9 @@
+
+
 """
+
+# Contributed by: Bryan Ling
+# Original code is from online sources
 
 How is dijkstras different from bellman-ford. BF takes a more 'depth first search' type approach, going through all edges and its vertices for |V| - 1 times at most to determine if the vertices are improving in cost
 with each iteration. Because it does not optimize the edges as they're visited right away, rather we move on until we hit all vertices, repeating again and again, it is more DFS like

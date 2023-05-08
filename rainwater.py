@@ -1,3 +1,7 @@
+
+# Contributed by: Bryan Ling
+# Original code is from Leetcode
+
 class Solution:
     def trap(self, height: list[int]) -> int:
         if not height: return 0

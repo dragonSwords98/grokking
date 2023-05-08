@@ -1,3 +1,5 @@
+# Contributed by: Bryan Ling
+
 # Rules:
 # 1 <= nums.length <= 104
 # -104 <= nums[i] <= 104

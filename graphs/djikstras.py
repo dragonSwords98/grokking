@@ -1,4 +1,7 @@
 """
+
+# Contributed by: Bryan Ling
+
 Dijkstra's algorithm used for non-negative, acyclical graphs for determining shortest path from start to any node 
 
 Dijkstras is similar to BFS, however also checks paths between neighboring nodes that reduces costs if a shorter path is found.

@@ -1,3 +1,4 @@
+# Contributed by: Bryan Ling
 
 # 1. identify what smallest set will remove half the integers in an array
 # 2. first sort this array, so you know, then split it half. find out which 

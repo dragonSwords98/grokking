@@ -1,3 +1,4 @@
+// # Contributed by: Bryan Ling
 
 const getRandomIntBelowNum = (max) => {
     return Math.floor(Math.random()* max)

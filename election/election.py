@@ -1,3 +1,6 @@
+
+# Contributed by: Bryan Ling
+
 # build an API to broadcast election information
 
 # - candidates

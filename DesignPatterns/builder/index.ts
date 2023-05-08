@@ -1,3 +1,5 @@
+// # Contributed by: Bryan Ling
+
 class Noodles {
     noodles: string;
     soupBase: string;

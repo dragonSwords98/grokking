@@ -1,3 +1,6 @@
+# Contributed by: Bryan Ling
+
+
 def sum(nums: list[int]) -> int:
     if nums.length <= 0:
         return 0

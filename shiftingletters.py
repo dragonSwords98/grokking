@@ -1,3 +1,6 @@
+
+# Contributed by: Bryan Ling
+
 class Solution:
 
     ALPHABET_LENGTH = 26
