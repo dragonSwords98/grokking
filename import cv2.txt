@@ -1,0 +1,14 @@
+import cv2
+import numpy as np
+import logging
+import math
+import os
+from keras.models import load_model
+from hand_coded_lane_follower import HandCodedLaneFollower
+
+
+model_output_dir = '/home/pi/DeepPiCar/models/lane_navigation/data/model_result/lane_navigation.h5'
+
+history = load_model(os.path.join(model_output_dir,'lane_navigation.h5'))
+
+print(history.history)
