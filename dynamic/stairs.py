@@ -1,3 +1,6 @@
+# Contributed by: Bryan Ling
+
+
 # QUESTION: if you can walk 1 or 2 steps, how many ways can you walk up stairs of n length to exactly the top?
 
 

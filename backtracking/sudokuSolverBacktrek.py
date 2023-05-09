@@ -1,3 +1,6 @@
+# Contributed by: Bryan Ling
+
+
 import numpy as np
 from typing import List
 

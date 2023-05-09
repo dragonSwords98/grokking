@@ -1,3 +1,5 @@
+# Contributed by: Bryan Ling
+
 # given string sequence, find longest palindrome substring within and return it
 import numpy as np
 

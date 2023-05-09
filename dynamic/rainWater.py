@@ -1,3 +1,6 @@
+# Contributed by: Bryan Ling
+# original code from leetcode
+
 from typing import List
 
 # n == height.length

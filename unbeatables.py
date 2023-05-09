@@ -1,3 +1,5 @@
+# Contributed by: Bryan Ling
+
 from collections import OrderedDict
 
 class Solution:

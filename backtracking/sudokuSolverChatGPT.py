@@ -1,3 +1,5 @@
+# Contributed by: Bryan Ling
+
 # Solve Sudoku via ChatGPT
 def solve_sudoku(grid):
     empty_cell = find_empty_cell(grid)

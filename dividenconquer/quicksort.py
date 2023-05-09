@@ -1,3 +1,6 @@
+# Contributed by: Bryan Ling
+
+
 # quicksort
 
 from random import randrange

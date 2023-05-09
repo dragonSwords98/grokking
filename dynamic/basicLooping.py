@@ -1,3 +1,6 @@
+
+# Contributed by: Bryan Ling
+
 # loop through a 2-D array with numpy to show how to iterate only half the array
 
 import numpy as np
